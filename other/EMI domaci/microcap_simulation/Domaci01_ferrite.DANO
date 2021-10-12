@@ -1,0 +1,107 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (32 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                      Dynamic AC of Domaci01_ferrite                      ***
+***                           10/8/2021 1:05:50 AM                           ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+AC Voltages at Frequency=1e+006 (Mag, Degrees)
+==============================================
+Node                Voltage  Node                Voltage 
+OUT       468.778m,-18.029°  IN          572.905m,14.67° 
+3        999.991m,166.255u°  X1.N1      476.618m,-8.186° 
+X1.N2       598.385m,5.551°  X1.N3      547.555m,12.423° 
+X1.N4      570.304m,14.838° 
+
+
+AC values for Resistor (Mag, Degrees)
+=====================================
+Instance:                       RP                   RG                VG.RS
+
+Power AC Terms:
+PD                          2.198m               2.198m     43.951n,-2.157f°
+
+AC Pin Currents:
+Ir                 9.376m,161.971°      9.376m,161.971°      9.376m,161.971°
+
+Device Variables:
+tc1                         0.000                0.000                0.000 
+tc2                         0.000                0.000                0.000 
+
+
+Instance:                    X1.R1                X1.R2                X1.R3
+
+Power AC Terms:
+PD                          3.866u              11.357u       32.79u,-2.96f°
+
+AC Pin Currents:
+Ir               94.905u,-108.609°    266.007u,-44.557°     2.003m,-120.363°
+
+Device Variables:
+tc1                         0.000                0.000                0.000 
+tc2                         0.000                0.000                0.000 
+
+
+Instance:                    X1.R4
+
+Power AC Terms:
+PD                 14.504u,3.346f°
+
+AC Pin Currents:
+Ir                 9.376m,161.971°
+
+Device Variables:
+tc1                         0.000 
+tc2                         0.000 
+
+
+
+AC values for Inductor (Mag, Degrees)
+=====================================
+Instance:                    X1.L1                X1.L2                X1.L3
+
+Power AC Terms:
+PS                    381.965u,90°         942.537u,90°         149.959u,90°
+
+AC Pin Currents:
+Il                 9.376m,161.391°      9.615m,161.263°      9.159m,149.637°
+
+Device Variables:
+ic                          0.000                0.000                0.000 
+
+
+
+AC values for Capacitor (Mag, Degrees)
+======================================
+Instance:                    X1.C2                X1.C1
+
+Power AC Terms:
+PS                    23.472u,-90°        152.219n,-90°
+
+AC Pin Currents:
+Ic               266.007u,-44.557°      1.097u,-18.699°
+
+Device Variables:
+ic                          0.000                0.000 
+
+
+
+AC values for Sine Source (Mag, Degrees)
+========================================
+Instance:                       VG
+Using model:                   VIN
+
+Power AC Terms:
+PG                  4.688m,18.029°
+
+AC Pin Currents:
+ISource            9.376m,161.971°
+
+

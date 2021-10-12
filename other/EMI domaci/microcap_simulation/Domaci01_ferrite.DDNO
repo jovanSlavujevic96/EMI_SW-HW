@@ -1,0 +1,98 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (32 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                      Dynamic DC of Domaci01_ferrite                      ***
+***                           10/8/2021 1:05:56 AM                           ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+OUT           0.000   IN            0.000   3             0.000  
+X1.N1         0.000   X1.N2         0.000   X1.N3         0.000  
+X1.N4         0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current  Inductor     Current  Inductor     Current 
+X1.L1         0.000   X1.L2         0.000   X1.L3         0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                RP            RG         VG.RS         X1.R1         X1.R2
+V                    0.000         0.000         0.000         0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000         0.000         0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000         0.000         0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000         0.000         0.000         0.000 
+tc2                  0.000         0.000         0.000         0.000         0.000 
+
+
+Instance:             X1.R3         X1.R4
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:             X1.L1         X1.L2         X1.L3
+V                    0.000         0.000         0.000 
+Power DC Terms:
+PS                   0.000         0.000         0.000 
+
+DC Pin Currents:
+Il                   0.000         0.000         0.000 
+
+Device Variables:
+ic                   0.000         0.000         0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:             X1.C2         X1.C1
+V                    0.000         0.000 
+Power DC Terms:
+PS                   0.000         0.000 
+
+DC Pin Currents:
+Ic                   0.000         0.000 
+
+Device Variables:
+ic                   0.000         0.000 
+
+
+
+Operating Point for Devices of Type Sine Source
+===============================================
+Instance:                VG
+Using model:            VIN
+V                    0.000 
+Power DC Terms:
+PG                   0.000 
+
+DC Pin Currents:
+ISource              0.000 
+
+
